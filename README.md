@@ -3,7 +3,7 @@ Here's a step-by-step tutorial to build and demonstrate a simple application usi
 ---
 
 ### **0. Create Virtual Environment (Optional)**
-Virtualenv is one of severla virtual environment for Python that you migh use:
+Virtualenv is one of severla virtual environment for Python that you might use:
 
 ```bash
 pip install virtualenv
@@ -25,7 +25,7 @@ pip install django djangorestframework
 ---
 
 ### **2. Create a Django Project**
-Start by creating a new Django project.  The "." at the end of the command caretes a "flatter" directory stryucture:
+Start by creating a new Django project.  The "." at the end of the command caretes a "flatter" directory structure:
 
 ```bash
 django-admin startproject booksapi .
