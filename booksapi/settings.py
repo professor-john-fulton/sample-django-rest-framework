@@ -18,17 +18,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
-<<<<<<< HEAD
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-nfw8bgbh+gc@%x-+35kyo=-uk78p9r&$=#4h)vypwowiz5vw*q'
-=======
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-5q$=uhsi&5!^chk!)kh#0n5++jnt&o1)2_3o)w$zbzv=79i$s@'
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -45,10 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
+    'rest_framework',
     'books',
-=======
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 ]
 
 MIDDLEWARE = [
@@ -83,11 +74,7 @@ WSGI_APPLICATION = 'booksapi.wsgi.application'
 
 
 # Database
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-=======
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 DATABASES = {
     'default': {
@@ -98,11 +85,7 @@ DATABASES = {
 
 
 # Password validation
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
-=======
-# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -121,11 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
-=======
-# https://docs.djangoproject.com/en/4.2/topics/i18n/
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 LANGUAGE_CODE = 'en-us'
 
@@ -137,19 +116,11 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-=======
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 STATIC_URL = 'static/'
 
 # Default primary key field type
-<<<<<<< HEAD
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
-=======
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
->>>>>>> ee3f8c09ca7b8d2e05a508afb911173f83885f1a
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
